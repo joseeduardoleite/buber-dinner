@@ -3,15 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.API", "BuberDinner.API\BuberDinner.API.csproj", "{FABCFAEC-F58B-42FE-B016-4A77811D8D0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.API", "BuberDinner.API\BuberDinner.API.csproj", "{FABCFAEC-F58B-42FE-B016-4A77811D8D0C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{60324B14-83E9-4A44-81A4-D97ED9BC9E95} = {60324B14-83E9-4A44-81A4-D97ED9BC9E95}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Contracts", "BuberDinner.Contracts\BuberDinner.Contracts.csproj", "{95CE7797-A259-4ADE-AD86-525FCE5C9D45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Contracts", "BuberDinner.Contracts\BuberDinner.Contracts.csproj", "{95CE7797-A259-4ADE-AD86-525FCE5C9D45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Infrastructure", "BuberDinner.Infrastructure\BuberDinner.Infrastructure.csproj", "{60324B14-83E9-4A44-81A4-D97ED9BC9E95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Infrastructure", "BuberDinner.Infrastructure\BuberDinner.Infrastructure.csproj", "{60324B14-83E9-4A44-81A4-D97ED9BC9E95}"
+	ProjectSection(ProjectDependencies) = postProject
+		{93C8716B-8646-431F-A950-C7C686966CD6} = {93C8716B-8646-431F-A950-C7C686966CD6}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Application", "BuberDinner.Application\BuberDinner.Application.csproj", "{93C8716B-8646-431F-A950-C7C686966CD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Application", "BuberDinner.Application\BuberDinner.Application.csproj", "{93C8716B-8646-431F-A950-C7C686966CD6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51878CAA-D5C1-450B-96F9-FAFEB308BC7C} = {51878CAA-D5C1-450B-96F9-FAFEB308BC7C}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Domain", "BuberDinner.Domain\BuberDinner.Domain.csproj", "{51878CAA-D5C1-450B-96F9-FAFEB308BC7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Domain", "BuberDinner.Domain\BuberDinner.Domain.csproj", "{51878CAA-D5C1-450B-96F9-FAFEB308BC7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
