@@ -1,6 +1,4 @@
-using BuberDinner.API.Errors;
-using BuberDinner.API.Filters;
-using BuberDinner.API.Middleware;
+using BuberDinner.API.Common.Errors;
 using BuberDinner.Application;
 using BuberDinner.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
@@ -27,7 +25,6 @@ var app = builder.Build();
         app.UseSwaggerUI();
     }
 
-    //app.UseMiddleware<ErrorHandlingMiddleware>();
     app.UseExceptionHandler("/error");
     app.UseHttpsRedirection();
     app.UseAuthorization();
