@@ -5,6 +5,7 @@ namespace BuberDinner.API.Controllers
 {
     public class ErrorsController : ControllerBase
     {
+        [HttpGet]
         [Route("/error")]
         public IActionResult Error()
         {
